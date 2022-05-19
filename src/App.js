@@ -1,9 +1,14 @@
-import CustomEventListener from "./components/CustomEventListener";
+// import CustomEventListener from "./components/CustomEventListener";
+import WindowSizeUse from "./components/WindowSizeUse";
 
 function App() {
   return (
     <div className="App">
-      <CustomEventListener/>
+      {/* <CustomEventListener/> */}
+      {/* <WhatCausedRender/> */}
+      {/* <DebounceListen/> */}
+      {/* <LocalStorageUse/> */}
+      <WindowSizeUse />
     </div>
   );
 }
